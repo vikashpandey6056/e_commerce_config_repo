@@ -1,1 +1,6 @@
+server:
+  port: 8085
 
+payment:
+  provider: stripe
+  api-key: your-payment-key

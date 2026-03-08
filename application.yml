@@ -1,1 +1,15 @@
 
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+
+logging:
+  level:
+    root: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
